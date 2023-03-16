@@ -1,0 +1,41 @@
+/* loading button */
+.loadingChatBot{
+    display: flex;
+    position: absolute !important;
+    bottom: 15% !important;
+    left:2% !important;
+    z-index: 99999999;
+    
+
+}
+.loadingChatBot .circleChatBot{
+    height:20px !important ;
+    width:20px !important;
+    background-color: pink !important;
+    margin:5px;
+    border-radius: 50%;
+
+}
+
+.circle_1{
+    animation:showscircle 1s ease-in-out 0ms both;
+}
+.circle_2{
+    animation:showscircle 1s ease-in-out 200ms both;
+}
+.circle_3{
+    animation:showscircle 1s ease-in-out 400ms both;
+}
+
+@keyframes showscircle {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.hidechatBotAnimation{
+    display: none !important;
+}

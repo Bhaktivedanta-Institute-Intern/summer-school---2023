@@ -92,7 +92,7 @@ p, a, li, #clock span, .title, .text-normal{
   color: #ffffff;
 }
 #o-banner{
-  background: url('./banner.png');
+  background: url('./banner\(2\).png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
