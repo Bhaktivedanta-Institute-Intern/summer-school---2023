@@ -7,8 +7,6 @@ const logoChatbot=document.getElementById('logo_chatbot');
 const loading=document.querySelector('.loadingChatBot');
 
 
-
-
 const renderUserMessage=()=>{
     console.log('value')
      const userInput=textInput.value.toLowerCase();
@@ -62,6 +60,7 @@ sends.addEventListener('click',renderUserMessage);
 
 
 function show(){
+    // console.log('working or not');
     logoChatbot.style.display='none'; 
    
     chatContainer.style.display='block';   
