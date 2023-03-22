@@ -265,3 +265,11 @@ td{
     font-size: 0.8875rem;
   }
 }
+
+
+@media screen and (max-width:336px) {
+  #site-title{
+    font-size: small;
+    font-weight: 500;
+  }
+}
