@@ -267,9 +267,13 @@ td{
 }
 
 
-/* @media screen and (max-width:336px) {
-  #site-title{
-    font-size: small;
+@media screen and (max-width:425px) {
+  #atSmallScreen{
+    font-size:xx-large !important;
     font-weight: 500;
   }
-} */
+  #atsmallscreenLocationSize{
+    font-size:large !important;
+    font-weight: 500;
+  }
+}
