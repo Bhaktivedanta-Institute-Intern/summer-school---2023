@@ -117,10 +117,11 @@ right:5px;
     padding:8px;
     background-color: pink;
     margin: 5px;
-    width:max-content;
+   
     border-radius: 10px 0px 10px 10px;
 }
 .chatbot_message{
+    
     background-color:brown;
     align-self: flex-start;
     border-radius: 10px 10px 0px 10px;
