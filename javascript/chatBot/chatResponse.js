@@ -24,7 +24,21 @@ return ans;
     else if(userInput.toLocaleLowerCase() == 'Can I Register without Accommodation ?'.toLocaleLowerCase()){
         let ans='Contact below details';
         return ans;
-    }else{
+    }
+
+    else if(userInput.toLocaleLowerCase() == 'hello'.toLocaleLowerCase()){
+        let ans='How can i help you';
+        return ans;
+    }
+    else if(userInput.toLocaleLowerCase() == 'hey'.toLocaleLowerCase()){
+        let ans='How can i help you';
+        return ans;
+    }
+    else if(userInput.toLocaleLowerCase() == 'hii'.toLocaleLowerCase()){
+        let ans='How can i help you';
+        return ans;
+    }
+    else{
         return 'please ask something else'
     }
 }
