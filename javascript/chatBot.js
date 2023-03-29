@@ -9,8 +9,8 @@ const loading=document.querySelector('.loadingChatBot');
 
 const renderUserMessage=()=>{
     console.log('value')
-     const userInput=textInput.value.toLowerCase();
-     if(userInput.trim()==""){
+     const userInput=textInput.value;
+     if(userInput==""){
         return;
      }
      renderMessage(userInput,"user");
@@ -42,7 +42,8 @@ renderMessage(res);
  }
 
  const getChatBotResponse=(userInput)=>{
-    return responseObj[userInput]==undefined?"please contact s@123gmail.com":responseObj[userInput];
+    return response(userInput);
+    // return responseObj[userInput]==undefined?"please contact s@123gmail.com":responseObj[userInput];
  }
 
 const setScrollPosition=()=>{

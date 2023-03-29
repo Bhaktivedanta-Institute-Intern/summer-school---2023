@@ -9,7 +9,7 @@
 .popup{
     z-index: 1;
     background-color: white;
-    width: 300px;
+    max-width: 300px;
     padding: 5px 40px;
     position: absolute;
     transform: translate(-50%, -50%);
