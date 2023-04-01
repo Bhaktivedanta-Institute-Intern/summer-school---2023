@@ -1,503 +1,678 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/bi logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/bi logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/bi logo.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-    <title>Bhaktivedanta Institute/speaker</title>
-    <link rel="stylesheet" href="assets/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/mobile.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/bi logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/bi logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/bi logo.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <title>Bhaktivedanta Institute/speaker</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/mobile.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
+
 <body class="min-vh-100 d-flex flex-column">
   <nav class="navbar navbar-expand-xl navbar-dark" style="background-color: #3A001D;">
     <div class="container-lg">
-        <a class="navbar-brand text-center" target="_blank" href="http://binstitute.org">
-            <img src="assets/bi logo.png" height="auto" class="d-inline-block align-top" id = "logo" alt="BI">
-        </a>
-        <a class="navbar-brand text-center" target="_blank" href="http://binstitute.org" style="color: #FE3486;">
-          <h4 class="mb-0" id="site-title">Bhaktivedanta <br> Institute </h4>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav text-center ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><h5> Home </h5></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <h5 class="d-inline">About</h5>
-                    </a>
-                    <div class="dropdown-menu text-center py-0" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item border-bottom" href="concept.html" target="_blank">
-                        <h5 class="my-1">Concept Note</h5>
-                    </a>
-                        <!-- <a class="dropdown-item border-bottom" href="vision.html"><h5 class="my-1">Vision</h5> -->
-                        <a class="dropdown-item border-bottom" href="http://binstitute.org/" target="_blank"><h5 class="my-1">Bhaktivedanta Institute</h5></a>
-                        <a class="dropdown-item border-bottom" href="http://binstitute.org/science-and-spiritual-quest-aissq/" target="_blank"><h5 class="my-1">Previous AISSQ</h5></a>
-                        <a class="dropdown-item border-bottom" href="http://binstitute.org/founder-director/" target="_blank"><h5 class="my-1">Founder Director</h5></a>
-                            <a class="dropdown-item border-bottom" href="http://binstitute.org/founder-acharya/" target="_blank"><h5 class="my-1">Founder President</h5></a>
-                    </div>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <h5 class="d-inline">Program</h5>
-                    </a>
-                    <div class="dropdown-menu text-center py-0" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item border-bottom" href="poster.html"><h5 class="my-1">Poster</h5></a>
-                        <a class="dropdown-item border-bottom" href="topics.html"><h5 class="my-1">Topics</h5></a>
-                        <a class="dropdown-item border-bottom" href="speakers.html"><h5 class="my-1">Speakers</h5></a>
-                        <span class="sr-only">(current)</span></a>
-                        <a class="dropdown-item border-bottom" href="schedule.html"><h5 class="my-1">Schedule</h5></a>
-                        <!-- <a class="dropdown-item border-bottom" href="acknowledgements.html"><h5 class="my-1">Acknowledgements</h5></a> -->
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.html"><h5>Register</h5></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="publications.html"><h5>Publications</h5></a>
-                </li>
-                <!-- <li class="nav-item">
+      <a class="navbar-brand text-center" target="_blank" href="http://binstitute.org">
+        <img src="assets/bi logo.png" height="auto" class="d-inline-block align-top" id="logo" alt="BI">
+      </a>
+      <a class="navbar-brand text-center" target="_blank" href="http://binstitute.org" style="color: #FE3486;">
+        <h4 class="mb-0" id="site-title">Bhaktivedanta <br> Institute </h4>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+        aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav text-center ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <h5> Home </h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <h5 class="d-inline">About</h5>
+            </a>
+            <div class="dropdown-menu text-center py-0" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item border-bottom" href="concept.html" target="_blank">
+                <h5 class="my-1">Concept Note</h5>
+              </a>
+              <!-- <a class="dropdown-item border-bottom" href="vision.html"><h5 class="my-1">Vision</h5> -->
+              <a class="dropdown-item border-bottom" href="http://binstitute.org/" target="_blank">
+                <h5 class="my-1">Bhaktivedanta Institute</h5>
+              </a>
+              <a class="dropdown-item border-bottom" href="http://binstitute.org/science-and-spiritual-quest-aissq/"
+                target="_blank">
+                <h5 class="my-1">Previous AISSQ</h5>
+              </a>
+              <a class="dropdown-item border-bottom" href="http://binstitute.org/founder-director/" target="_blank">
+                <h5 class="my-1">Founder Director</h5>
+              </a>
+              <a class="dropdown-item border-bottom" href="http://binstitute.org/founder-acharya/" target="_blank">
+                <h5 class="my-1">Founder President</h5>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <h5 class="d-inline">Program</h5>
+            </a>
+            <div class="dropdown-menu text-center py-0" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item border-bottom" href="poster.html">
+                <h5 class="my-1">Poster</h5>
+              </a>
+              <a class="dropdown-item border-bottom" href="topics.html">
+                <h5 class="my-1">Topics</h5>
+              </a>
+              <a class="dropdown-item border-bottom" href="speakers.html">
+                <h5 class="my-1">Speakers</h5>
+              </a>
+              <span class="sr-only">(current)</span></a>
+              <a class="dropdown-item border-bottom" href="schedule.html">
+                <h5 class="my-1">Schedule</h5>
+              </a>
+              <!-- <a class="dropdown-item border-bottom" href="acknowledgements.html"><h5 class="my-1">Acknowledgements</h5></a> -->
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">
+              <h5>Register</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">
+              <h5>Publications</h5>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
                   <a class="nav-link" href="quiz.html"><h5>Quiz</h5></a>
                 </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="donations.html"><h5>Donations</h5></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><h5>Contact Us</h5></a>
-                </li>
-            </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="donations.html">
+              <h5>Donations</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              <h5>Contact Us</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-    <div id='banner'>
-      <div class="container-lg py-4 text-drkpink text-center" >
-          <h1 class="py-2"> Speakers</h1> 
-      </div>
-    </div>
-
-    <main class="container-lg px-0 flex-grow-1 mx-auto">
-        <div class="mx-1 my-3 m-sm-4">
-          <div class="accordion text-white" id="accordionExample">
-
-
-<!-- made by me -->
-<div id="speaker0" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="assets/speakers/Earl_k_miller.jpg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Earl K. Miller</h3>
-            <h5 class="text-pink">Massachusetts Institute of Technology, USA</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse0" aria-expanded="false">
-              Earl K. Miller is the Picower Professor of Neuroscience in The Picower Institute for Learning and Memory at the Massachusetts Institute of Technology. He received his B.A. (summa cum laude, with honors) in Psychology from Kent State University in 1985.  He received an M.A. (in 1987) and Ph.D. (in 1990) in Psychology and Neuroscience from Princeton University.  Professor Miller was awarded an honorary doctorate (Doctor of Science, honoris causa) from Kent State University in 2020.Professor Miller studies the neural basis of executive brain functions, the ability to carry out goal-directed behavior using complex mental processes.  Research topics include working memory, attention, decision-making, and learning.  The Miller Lab has shown how categories and concepts are learned, how multifunctional “mixed-selectivity” neurons endow the cortex with computational horsepower and flexibility, and how neural oscillations regulate neural communication and consciousness.  This work has established a foundation upon which to construct more detailed, mechanistic accounts of cognition and its dysfunction in diseases such as autism, schizophrenia, and attention deficit disorder.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse0" aria-expanded="false"
-              aria-controls="collapse0"></a>
-          </div>
-        </div>
-      </div>
+  <div id='banner'>
+    <div class="container-lg py-4 text-drkpink text-center">
+      <h1 class="py-2"> Speakers</h1>
     </div>
   </div>
-</div>
 
-<div id="speaker1" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-1">
-        <div class="text-center">
-          <img src="assets/speakers/mayank_mehta.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;max-height: 200px;min-height: 150px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-2">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Mayank Mehta</h3>
-            <h5 class="text-pink">University of California Los Angeles, USA</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse1" aria-expanded="false">
-              The mind is thought to be the emergent property of the activities of ensembles of neurons. The nature of these emergent properties and how they arise are unknown. This is the focus of our research. In particular, our current research addresses the following fundamental questions in Neurophysics:
-              1. How is information about the physical world represented by ensembles of neurons? In particular, what are the neural mechanisms of perceiving space-time?
-              2. How do the neural representations evolve with learning?
-              3. What is the role of brain rhythms in learning and memory?
-              4. How does sleep influence learning?
-              To address these questions we use both experimental and theoretical approaches as follows: 
-              1. Develop hardware to measure and manipulate neural activity and behavior.
-              2. Measure the activity of ensembles of well isolated neurons from many hippocampal and neocortical areas simultaneously during learning and during sleep.
-              3. Develop data analysis tools to decipher the patterns of neural activity and field potentials, and their relationship to behavior.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse1" aria-expanded="false"
-              aria-controls="collapse1"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  <main class="container-lg px-0 flex-grow-1 mx-auto">
+    <div class="mx-1 my-3 m-sm-4">
+      <div class="accordion text-white" id="accordionExample">
 
 
-<div id="speaker2" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="assets/speakers/gl-neil-burgess.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Neil Burgess</h3>
-            <h5 class="text-pink">University College London, UK</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse2" aria-expanded="false">
-              I am based at the UCL Institute of Cognitive Neuroscience and affiliated to the UCL Institute of Neurology, Department of Epilepsy, the Wellcome Centre for Human NeuroImaging and the Sainsbury Wellcome Centre for Neural Circuits and Behaviour. I am supported by a Wellcome Principal Research Fellowship and ERC Advanced Grant NEUROMEM.I'm interested in the neural mechanisms supporting memory, with particular interest in the role of the hippocampus in spatial and episodic memory, but also an interest in the role of other brain regions and forms of memory such as phonological working memory. My approach is to develop models relating the actions of individual neurons to behaviour so as to integrate results from single unit recording, neuropsychological and functional neuroimaging and behavioural experiments. I hope to both predict and perform useful experiments and to generate novel theoretical and computational well-specified understanding of the mechanisms involved.My research has followed 4 main directions: Developing quantitative simulations of the computation role of hippocampal neurons in rat navigation (reviewed here), and of where and how grid cells (like this model) and place cells will fire in new environments. I am currently interested to extend these well-grounded models to capture the characteristics of human spatial and episodic memory, attempting to integrate the experimental results below. Identifying the environmental inputs determining the receptive fields of hippocampal place cells, examining how these responses change with experience, and showing how the temporal and rate code of place cell firing is independent.  
-              The third strand of my research concerns the neural basis of navigation and episodic memory in humans, using virtual reality environments based on modifications of PC video games. These have been used in behavioural, functional neuroimaging and Neuropsychological studies, focussing on the hippocampus and related structures.I am also interested in modelling working memory for serial order and its relationship to long term memory, including the relationship between imagery and memory and the role of parietal, medial temporal and frontal areas in these processes. of the hippocampus.  
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse2" aria-expanded="false"
-              aria-controls="collapse2"></a>
+        <!-- made by me -->
+        <div id="speaker0" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="assets/speakers/Earl_k_miller.jpg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Earl K. Miller</h3>
+                    <h5 class="text-pink">Massachusetts Institute of Technology, USA</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse0" aria-expanded="false">
+                      Earl K. Miller is the Picower Professor of Neuroscience in The Picower Institute for Learning and
+                      Memory at the Massachusetts Institute of Technology. He received his B.A. (summa cum laude, with
+                      honors) in Psychology from Kent State University in 1985. He received an M.A. (in 1987) and Ph.D.
+                      (in 1990) in Psychology and Neuroscience from Princeton University. Professor Miller was awarded
+                      an honorary doctorate (Doctor of Science, honoris causa) from Kent State University in
+                      2020.Professor Miller studies the neural basis of executive brain functions, the ability to carry
+                      out goal-directed behavior using complex mental processes. Research topics include working memory,
+                      attention, decision-making, and learning. The Miller Lab has shown how categories and concepts are
+                      learned, how multifunctional “mixed-selectivity” neurons endow the cortex with computational
+                      horsepower and flexibility, and how neural oscillations regulate neural communication and
+                      consciousness. This work has established a foundation upon which to construct more detailed,
+                      mechanistic accounts of cognition and its dysfunction in diseases such as autism, schizophrenia,
+                      and attention deficit disorder.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse0"
+                      aria-expanded="false" aria-controls="collapse0"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="speaker3" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-1">
-        <div class="text-center">
-          <img src="assets/speakers/dummy.jpg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-2">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Luc Bergmans</h3>
-            <h5 class="text-pink">Sorbonne University Paris, France</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse3" aria-expanded="false">
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius natus minus a pariatur quam, est dignissimos consectetur aliquam, esse atque nulla excepturi asperiores ad fugiat maiores omnis dolorem ratione harum.
-           Voluptatem accusamus magni blanditiis dolor autem? Ipsum, aut soluta sunt accusantium rem id quas rerum ex quasi repudiandae velit? Odio dolor nam quia repellat sint perferendis molestias repudiandae hic tenetur.
-           Blanditiis doloremque voluptate nemo aperiam ullam, beatae sit repudiandae! Iure reiciendis, dolore dolorem inventore doloremque rem quidem reprehenderit tempore ullam. Ab vero maxime unde temporibus debitis quo veritatis nihil repellat.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse3" aria-expanded="false"
-              aria-controls="collapse3"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="speaker10" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="./assets/speakers/neerajJain.png" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Neeraj Jain</h3>
-            <h5 class="text-pink">Indian Institute Of Technology Jodhpur, India(former Director,National Brain Research center, Manesar India)</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse10" aria-expanded="false">
-              Neeraj Jain is a Professor at Indian Institute of Technology Jodhpur. He completed his PhD.in Bio-Chemistry and Indian Agricultural Research Institute. He was also formerly working as National Brain Research Centre as a Director and Scientist at Center for Cellular and Molecular Biology
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse10" aria-expanded="false"
-              aria-controls="collapse10"></a>
+        <div id="speaker1" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-1">
+                <div class="text-center">
+                  <img src="assets/speakers/mayank_mehta.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;max-height: 200px;min-height: 150px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-2">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Mayank Mehta</h3>
+                    <h5 class="text-pink">University of California, Los Angeles, USA</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse1" aria-expanded="false">
+                      The mind is thought to be the emergent property of the activities of ensembles of neurons. The
+                      nature of these emergent properties and how they arise are unknown. This is the focus of our
+                      research. In particular, our current research addresses the following fundamental questions in
+                      Neurophysics:
+                      1. How is information about the physical world represented by ensembles of neurons? In particular,
+                      what are the neural mechanisms of perceiving space-time?
+                      2. How do the neural representations evolve with learning?
+                      3. What is the role of brain rhythms in learning and memory?
+                      4. How does sleep influence learning?
+                      To address these questions we use both experimental and theoretical approaches as follows:
+                      1. Develop hardware to measure and manipulate neural activity and behavior.
+                      2. Measure the activity of ensembles of well isolated neurons from many hippocampal and
+                      neocortical areas simultaneously during learning and during sleep.
+                      3. Develop data analysis tools to decipher the patterns of neural activity and field potentials,
+                      and their relationship to behavior.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse1"
+                      aria-expanded="false" aria-controls="collapse1"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="speaker11" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-1">
-        <div class="text-center">
-          <img src="./assets/speakers/jayasriDas.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-2">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Jayasri Das Sarma</h3>
-            <h5 class="text-pink">IISER Kolkata, India</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse11" aria-expanded="false">
-             Prof.Dayashri Sharma laboratory is involved in the study of neuropathogenesis of murine Coronavirus, mouse hepatitis virus (MHV) infection which causes central nervous system (CNS) demyelination and consecutive axonal loss and mimics certain pathology of human neurological disease Multiple Sclerosis (MS). Demyelination is the process by which axons lose their normal insulating myelin. Myelin forms an insulating sheath surrounding axons in the central and peripheral nervous systems and is essential for rapid propagation of neuronal action potentials. Our laboratory is focused to understand the genomic control of disease phenotype of the MHV strains to empathize the cellular and molecular mechanism of viral induced demyelinaiton in experimental animal model of MS, where we are investigating; 1) how acute viral infection initiate innate immune activation in the CNS which in turn can lead to chronic demyelination with or without involving the adaptive immune system; 2) whether cleavage and fusion properties of the spike protein plays any role in viral spread and neuronal tropism from gray to white matter and preferential neuronal tropism in the white matter can cause demyelination; 4) whether cell-cell interactions in the CNS through gap junction plays any role in neuroinflammatory cascade of MHV induced demyelination. In order to conduct these investigations, we have the important tools of a well developed animal model system and reverse genetic systems of MHV with which to manipulate the viral genome. Our lab has extensive experience in making recombinant strains, phenotypic and pathological characterization of recombinant strains, including fusion, spread to neural tissues and differential neural cell tropism of isogenic recombinant strains in brain, spinal cord and optic nerve. We also have expertise in molecular, cellular, and in vitro neuronal cell and glial cell culture techniques required for our investigations. Our combined studies on the correlation between the genomic control of biologic phenotype of the MHV strains with demyelination and axonal pathology of mouse CNS in neuroinflammatory cascade will be able to establish a powerful approach to elucidate the cellular and molecular details regarding the pathogenesis of MHV induced neurological dystrophy. My long term goal is to extend these studies to search for similarities in mechanistic pathways of the inflammatory processes associated with autoimmune diseases such as multiple sclerosis, neurodegenerative diseases such as Alzheimer’s and Parkinson’s disease, and other infectious diseases. The insights from my studies will provide me proper knowledge and expertise to meet the challenge of future emerging neurotropic viruses and viral diseases.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse11" aria-expanded="false"
-              aria-controls="collapse11"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="speaker12" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="./assets/speakers/prof_siddharth.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
-          style="min-width:150px; width: 100%; max-width: 200px;" height="200px">
-            
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Dr. Siddharth Warrier</h3>
-            <h5 class="text-pink">Wockhardth Super Specialty Hospital, India</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse12" aria-expanded="false">
-              Dr. Siddharth Warrier is a Neurologist with a 5-year experience in the field of Neurology. Dr. Warrier completed his MBBS from Grant Medical college and JJ Hospital, Mumbai, and his MD Medicine from Seth G.S. Medical College and KEM Hospital. He completed his D.M (Neurology) at Sanjay Gandhi postgraduate Institute, Lucknow. He worked as a Senior Registrar in the department of Neurology at KEM Hospital from 2019-2020. He completed his MRCP training and received his MRCP UK (London) degree in 2019. He is currently attached to Wockhardt Hospital, Mira Road since February 2020.
-              Dr. Warrier is a Life Member of Indian Association of Neurology and Maharashtra Association of Neurology. He is a member of the Royal College of Physicians, London (MRCP). He is also a corresponding member of European Academy of Neurology.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse12" aria-expanded="false"
-              aria-controls="collapse12"></a>
+        <div id="speaker2" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="assets/speakers/gl-neil-burgess.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Neil Burgess</h3>
+                    <h5 class="text-pink">University College London, UK</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse2" aria-expanded="false">
+                      I am based at the UCL Institute of Cognitive Neuroscience and affiliated to the UCL Institute of
+                      Neurology, Department of Epilepsy, the Wellcome Centre for Human NeuroImaging and the Sainsbury
+                      Wellcome Centre for Neural Circuits and Behaviour. I am supported by a Wellcome Principal Research
+                      Fellowship and ERC Advanced Grant NEUROMEM.I'm interested in the neural mechanisms supporting
+                      memory, with particular interest in the role of the hippocampus in spatial and episodic memory,
+                      but also an interest in the role of other brain regions and forms of memory such as phonological
+                      working memory. My approach is to develop models relating the actions of individual neurons to
+                      behaviour so as to integrate results from single unit recording, neuropsychological and functional
+                      neuroimaging and behavioural experiments. I hope to both predict and perform useful experiments
+                      and to generate novel theoretical and computational well-specified understanding of the mechanisms
+                      involved.My research has followed 4 main directions: Developing quantitative simulations of the
+                      computation role of hippocampal neurons in rat navigation (reviewed here), and of where and how
+                      grid cells (like this model) and place cells will fire in new environments. I am currently
+                      interested to extend these well-grounded models to capture the characteristics of human spatial
+                      and episodic memory, attempting to integrate the experimental results below. Identifying the
+                      environmental inputs determining the receptive fields of hippocampal place cells, examining how
+                      these responses change with experience, and showing how the temporal and rate code of place cell
+                      firing is independent.
+                      The third strand of my research concerns the neural basis of navigation and episodic memory in
+                      humans, using virtual reality environments based on modifications of PC video games. These have
+                      been used in behavioural, functional neuroimaging and Neuropsychological studies, focussing on the
+                      hippocampus and related structures.I am also interested in modelling working memory for serial
+                      order and its relationship to long term memory, including the relationship between imagery and
+                      memory and the role of parietal, medial temporal and frontal areas in these processes. of the
+                      hippocampus.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse2"
+                      aria-expanded="false" aria-controls="collapse2"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="speaker6" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-1">
-        <div class="text-center">
-          <img src="assets/speakers/Prof. Sandeep Kumar.jpg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-2">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Sandeep Kumar</h3>
-            <h5 class="text-pink">Indian Institute of Technology (BHU), Varanasi</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse6" aria-expanded="false">
-              Dr. Sandeep Kumar is a Professor, Department of Mechanical Engineering, IIT (BHU), Varanasi. He graduated from MNREC Allahabad and completed post-graduation from IT, BHU, Varanasi. His field of interest is Computational Mechanics. After completing Ph.D. from IIT Delhi in the field of composite plates and shells, he has worked in various fields of research such as meshless methods, chaos theory, and wavelets etc. Before joining IIT (BHU), he worked in REC Kurukshetra, BITS Pilani and AIMST, Malaysia. He has completed several research projects for DST and BARC. He has numerous publications in international journals of repute. He has written a popular book, “Mathematical Theory of Subdivisions - Finite Elements and Wavelet Methods”, which is published by CRC press.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse6" aria-expanded="false"
-              aria-controls="collapse6"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="speaker4" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="assets/speakers/balaji_jay.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Prof. Balaji Jayprakash</h3>
-            <h5 class="text-pink">IISc Bangalore, India </h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse4" aria-expanded="false">
-              
-            Principle Investigator: Dr. Balaji Jayaprakash
-
-            Assistant Professor, Centre for Neuroscience, Indian Institute of Science
-
-            Research: Learning and Memory
-
-            Post Doctoral Fellow with Prof. Silva, Department of Neurobiology, UCLA, Los Angeles, July 2007- Dec 2011
-
-            Post Doctoral Fellow with Prof. Ryan, Department of Biochemistry, Weil Medical College of Cornell University, New York, NY - 10021. USA, 2005 - 2007
-
-           Tata Institute of Fundamental Research, Visiting Fellow, 2004 - 2005
-
-           Tata Institute of Fundamental Research, Ph.D. (Chemistry), 2004
-
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse4" aria-expanded="false"
-              aria-controls="collapse4"></a>
+        <div id="speaker3" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-1">
+                <div class="text-center">
+                  <img src="assets/speakers/dummy.jpg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-2">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Luc Bergmans</h3>
+                    <h5 class="text-pink">Sorbonne University Paris, France</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse3" aria-expanded="false">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius natus minus a pariatur quam, est
+                      dignissimos consectetur aliquam, esse atque nulla excepturi asperiores ad fugiat maiores omnis
+                      dolorem ratione harum.
+                      Voluptatem accusamus magni blanditiis dolor autem? Ipsum, aut soluta sunt accusantium rem id quas
+                      rerum ex quasi repudiandae velit? Odio dolor nam quia repellat sint perferendis molestias
+                      repudiandae hic tenetur.
+                      Blanditiis doloremque voluptate nemo aperiam ullam, beatae sit repudiandae! Iure reiciendis,
+                      dolore dolorem inventore doloremque rem quidem reprehenderit tempore ullam. Ab vero maxime unde
+                      temporibus debitis quo veritatis nihil repellat.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse3"
+                      aria-expanded="false" aria-controls="collapse3"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="speaker5" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-1">
-        <div class="text-center">
-          <img src="assets/speakers/SrikanthChandragiri.jpg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;max-height: 200px;min-height: 150px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-2">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Dr. Srikant Chandragiri</h3>
-            <h5 class="text-pink">Max Planck institute, Germany</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse5" aria-expanded="false">
-              Dr Bhakti Devi is trained as Civil & Environmental Engineer along with a PhD in Urban Water. Dr Bhakti has spent 25
-              years of her active working career in the water & sustainability industry in Australia. She is a global expert on
-              user-led water conservation which is the future of water in cities. She has worked as Decentralised Water Strategist for
-              City of Sydney & Sydney Water Corporation. Examples of the programs she has led & executed include: 1) Decentralised
-              Water Master Plan for City of Sydney that triggered several innovative & Award Winning water programs & projects
-              including Smart Green Apartments , Stormwater Harvesting @ Sydney Park , Raingarden Integration into Road & Footpath
-              Renewals to name a few. 2) Award winning Water Conservation Program for Businesses & Offices informed by Water Auditing
-              of several types of Water End Using Sectors. Dr Bhakti has recently relocated to India with a vision to create a water
-              secure & water sustainable Urban India. She has founded Urban Water Doctor whose mission is to empower & enable water
-              users in recreating their water systems so they reduce their dependence on water tankers by 50 to 100%. Since relocating
-              to Bangalore in 2018, ● She has designed, tested & validated a Water Diagnostic & Solution Planning service that helps
-              water users to transform their existing water-stressed properties in cities & towns to become sustainably water
-              sufficient. This is based on a survey of 100+ Apartment Communities, 20+ solution providers & comprehensive assessment
-              of 25 Apartment complexes in Bangalore. ● She has designed training modules on Urban Water Literacy & Urban Water
-              Accountability that need to be urgently scaled across all cities and towns of India.
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse5" aria-expanded="false"
-              aria-controls="collapse5"></a>
+        <div id="speaker10" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="./assets/speakers/neerajJain.png" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Neeraj Jain</h3>
+                    <h5 class="text-pink">IIT Jodhpur, India (former Director, National Brain Research Center, Manesar
+                      India)</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse10" aria-expanded="false">
+                      Neeraj Jain is a Professor at Indian Institute of Technology Jodhpur. He completed his PhD.in
+                      Bio-Chemistry and Indian Agricultural Research Institute. He was also formerly working as National
+                      Brain Research Centre as a Director and Scientist at Center for Cellular and Molecular Biology
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse10"
+                      aria-expanded="false" aria-controls="collapse10"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-
-
-<div id="speaker7" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="assets/speakers/sushant.jpg" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Sushant Sharma</h3>
-            <h5 class="text-pink">Bhaktivedanta Institute Kolkata, India</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse7" aria-expanded="false">
-              Sushant Sharma is a B. Tech. graduate (2000) from IIT Guwahati.  He has contributed enormously towards various activities of the Bhaktivedanta Institute as an author and an editor. He was last associated with Tech Mahindra Limited as Tech Leader and has an IT experience of over 15 years.  Later, Sushant Sharma decided to dedicate himself to the mission of Bhaktivedanta Institute and has been engaging himself to study the science of consciousness from a scientific as well as spiritual perspective. Under the able guidance of science-spirituality synthesis visionary Dr. T. D. Singh, he has delivered a key note lecture at the International Conference on Life and its Origin at Rome in 2004. From 2007, Sushant has been a speaker in many science-spirituality conferences and workshops organized by the Bhaktivedanta Institute including the AISSQ conference series.  His conference lecture themes include “Man and Machine”, “Computer and Intelligence” and “Inimitable Intelligence”
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse7" aria-expanded="false"
-              aria-controls="collapse7"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="speaker8" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-1">
-        <div class="text-center">
-          <img src="assets/speakers/vasudevarao.png" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-2">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Shri K Vasudev Rao</h3>
-            <h5 class="text-pink">President, Bhaktivedanta Institute Kolkata, India</h5>
-          </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse8" aria-expanded="false">
-              Vasudeva Rao (also known as His Holiness Bhaktisvarupa Vrajapati Swami), an alumnus of prestigious institute, IIT Kanpur (Computer Science, 1998), is currently the President of the Bhaktivedanta Institute, Kolkata. He is also the Editor of Bhaktivedanta Institute’s reputed annual journal, Savijnanam – Scientific Exploration for a Spiritual Paradigm and travels widely across India and abroad. His deep interest in the Foundations of mathematics, fundamentals of computer science and Logic and its relation to nature of reality as well as ancient Indian texts led him to interact and meet renowned scholars at Harvard, Princeton, Stanford, and MIT. He has delivered numerous talks on computer science and spirituality. Under his guidance and supervision, more than 10 national conferences, 2 International conferences, over 200 papers and over 100 seminars and workshops on science and spirituality have been organized by the Institute in past decade which includes contributions from more than 20 Nobel Laureates and world-renowned scholars. 
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse8" aria-expanded="false"
-              aria-controls="collapse8"></a>
+        <div id="speaker11" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-1">
+                <div class="text-center">
+                  <img src="./assets/speakers/jayasriDas.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-2">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Jayasri Das Sarma</h3>
+                    <h5 class="text-pink">IISER Kolkata, India</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse11" aria-expanded="false">
+                      Prof.Dayashri Sharma laboratory is involved in the study of neuropathogenesis of murine
+                      Coronavirus, mouse hepatitis virus (MHV) infection which causes central nervous system (CNS)
+                      demyelination and consecutive axonal loss and mimics certain pathology of human neurological
+                      disease Multiple Sclerosis (MS). Demyelination is the process by which axons lose their normal
+                      insulating myelin. Myelin forms an insulating sheath surrounding axons in the central and
+                      peripheral nervous systems and is essential for rapid propagation of neuronal action potentials.
+                      Our laboratory is focused to understand the genomic control of disease phenotype of the MHV
+                      strains to empathize the cellular and molecular mechanism of viral induced demyelinaiton in
+                      experimental animal model of MS, where we are investigating; 1) how acute viral infection initiate
+                      innate immune activation in the CNS which in turn can lead to chronic demyelination with or
+                      without involving the adaptive immune system; 2) whether cleavage and fusion properties of the
+                      spike protein plays any role in viral spread and neuronal tropism from gray to white matter and
+                      preferential neuronal tropism in the white matter can cause demyelination; 4) whether cell-cell
+                      interactions in the CNS through gap junction plays any role in neuroinflammatory cascade of MHV
+                      induced demyelination. In order to conduct these investigations, we have the important tools of a
+                      well developed animal model system and reverse genetic systems of MHV with which to manipulate the
+                      viral genome. Our lab has extensive experience in making recombinant strains, phenotypic and
+                      pathological characterization of recombinant strains, including fusion, spread to neural tissues
+                      and differential neural cell tropism of isogenic recombinant strains in brain, spinal cord and
+                      optic nerve. We also have expertise in molecular, cellular, and in vitro neuronal cell and glial
+                      cell culture techniques required for our investigations. Our combined studies on the correlation
+                      between the genomic control of biologic phenotype of the MHV strains with demyelination and axonal
+                      pathology of mouse CNS in neuroinflammatory cascade will be able to establish a powerful approach
+                      to elucidate the cellular and molecular details regarding the pathogenesis of MHV induced
+                      neurological dystrophy. My long term goal is to extend these studies to search for similarities in
+                      mechanistic pathways of the inflammatory processes associated with autoimmune diseases such as
+                      multiple sclerosis, neurodegenerative diseases such as Alzheimer’s and Parkinson’s disease, and
+                      other infectious diseases. The insights from my studies will provide me proper knowledge and
+                      expertise to meet the challenge of future emerging neurotropic viruses and viral diseases.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse11"
+                      aria-expanded="false" aria-controls="collapse11"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="speaker9" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
-  <div class="card-header">
-    <div class="row no-gutters row-cols-2">
-      <div class="col-12 col-sm-4 col-md-3 order-sm-2">
-        <div class="text-center">
-          <img src="assets/speakers/varun-agarwal.png" class="card-img-top rounded-circle my-auto" alt="..."
-            style="min-width:150px; width: 100%; max-width: 200px;">
-        </div>
-      </div>
-      <div class="col-12 col-sm-8 col-md-9 order-sm-1">
-        <div class="m-2 text-center d-flex flex-column justify-content-center">
-          <div class="m-2">
-            <h3>Shri Varun Agarwal</h3>
-            <h5 class="text-pink">Director, Bhaktivedanta Institute Kolkata, India</h5>
+        <div id="speaker12" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="./assets/speakers/prof_siddharth.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;" height="200px">
+
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Dr. Siddharth Warrier</h3>
+                    <h5 class="text-pink">Wockhardt Super Specialty Hospital, Mumbai, India</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse12" aria-expanded="false">
+                      Dr. Siddharth Warrier is a Neurologist with a 5-year experience in the field of Neurology. Dr.
+                      Warrier completed his MBBS from Grant Medical college and JJ Hospital, Mumbai, and his MD Medicine
+                      from Seth G.S. Medical College and KEM Hospital. He completed his D.M (Neurology) at Sanjay Gandhi
+                      postgraduate Institute, Lucknow. He worked as a Senior Registrar in the department of Neurology at
+                      KEM Hospital from 2019-2020. He completed his MRCP training and received his MRCP UK (London)
+                      degree in 2019. He is currently attached to Wockhardt Hospital, Mira Road since February 2020.
+                      Dr. Warrier is a Life Member of Indian Association of Neurology and Maharashtra Association of
+                      Neurology. He is a member of the Royal College of Physicians, London (MRCP). He is also a
+                      corresponding member of European Academy of Neurology.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse12"
+                      aria-expanded="false" aria-controls="collapse12"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="m-2">
-            <p class="collapse text-pink" id="collapse9" aria-expanded="false">
-              Varun Agarwal (also known as His Holiness Bhaktisvarupa Vrajendrakumar Swami), an alumnus of Indian Institute of Technology Kanpur (IIT Kanpur, 1999, Aerospace Engg.), is currently the Director of the Bhaktivedanta Institute, Kolkata, India (Founded by illustrious scientist-saint, Dr. T. D. Singh, also known as His Holiness Bhaktisvarupa Damodara Swami) and works actively in the Foundations of Science and its possible relation with spirituality. His search for deeper meaning of life culminated in meeting and taking personal guidance of Dr. T. D. Singh which completely changed his life and he later dedicated himself for the cause of selflessly helping humanity. He is the Editor of many publications on science and spirituality as well as of the Bhaktivedanta Institute’s reputed annual science-spirituality journal, Savijnanam – Scientific Exploration for a Spiritual Paradigm and travels widely across India and abroad. His deep interest in the Foundations of mathematics and its relation to nature of reality as well as ancient Indian texts led him to interact and meet renowned scholars at Harvard, Princeton, ETH, Stanford, and MIT. He has interacted with many renowned mathematicians and himself has given numerous talks on foundations of science, mathematics and spirituality. 
-            </p>
-            <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse9" aria-expanded="false"
-              aria-controls="collapse9"></a>
+        </div>
+
+        <div id="speaker6" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-1">
+                <div class="text-center">
+                  <img src="assets/speakers/Prof. Sandeep Kumar.jpg" class="card-img-top rounded-circle my-auto"
+                    alt="..." style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-2">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Sandeep Kumar</h3>
+                    <h5 class="text-pink">IIT(BHU) Varanasi, India</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse6" aria-expanded="false">
+                      Dr. Sandeep Kumar is a Professor, Department of Mechanical Engineering, IIT (BHU), Varanasi. He
+                      graduated from MNREC Allahabad and completed post-graduation from IT, BHU, Varanasi. His field of
+                      interest is Computational Mechanics. After completing Ph.D. from IIT Delhi in the field of
+                      composite plates and shells, he has worked in various fields of research such as meshless methods,
+                      chaos theory, and wavelets etc. Before joining IIT (BHU), he worked in REC Kurukshetra, BITS
+                      Pilani and AIMST, Malaysia. He has completed several research projects for DST and BARC. He has
+                      numerous publications in international journals of repute. He has written a popular book,
+                      “Mathematical Theory of Subdivisions - Finite Elements and Wavelet Methods”, which is published by
+                      CRC press.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse6"
+                      aria-expanded="false" aria-controls="collapse6"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+        <div id="speaker4" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="assets/speakers/balaji_jay.jpeg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Prof. Balaji Jayprakash</h3>
+                    <h5 class="text-pink">IISc Bangalore, India </h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse4" aria-expanded="false">
+
+                      Principle Investigator: Dr. Balaji Jayaprakash
+
+                      Assistant Professor, Centre for Neuroscience, Indian Institute of Science
+
+                      Research: Learning and Memory
+
+                      Post Doctoral Fellow with Prof. Silva, Department of Neurobiology, UCLA, Los Angeles, July 2007-
+                      Dec 2011
+
+                      Post Doctoral Fellow with Prof. Ryan, Department of Biochemistry, Weil Medical College of Cornell
+                      University, New York, NY - 10021. USA, 2005 - 2007
+
+                      Tata Institute of Fundamental Research, Visiting Fellow, 2004 - 2005
+
+                      Tata Institute of Fundamental Research, Ph.D. (Chemistry), 2004
+
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse4"
+                      aria-expanded="false" aria-controls="collapse4"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="speaker5" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-1">
+                <div class="text-center">
+                  <img src="assets/speakers/SrikanthChandragiri.jpg" class="card-img-top rounded-circle my-auto"
+                    alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;max-height: 200px;min-height: 150px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-2">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Dr. Srikanth Chandragiri</h3>
+                    <h5 class="text-pink">Max Planck Institute, Germany</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse5" aria-expanded="false">
+                      Dr Bhakti Devi is trained as Civil & Environmental Engineer along with a PhD in Urban Water. Dr
+                      Bhakti has spent 25
+                      years of her active working career in the water & sustainability industry in Australia. She is a
+                      global expert on
+                      user-led water conservation which is the future of water in cities. She has worked as
+                      Decentralised Water Strategist for
+                      City of Sydney & Sydney Water Corporation. Examples of the programs she has led & executed
+                      include: 1) Decentralised
+                      Water Master Plan for City of Sydney that triggered several innovative & Award Winning water
+                      programs & projects
+                      including Smart Green Apartments , Stormwater Harvesting @ Sydney Park , Raingarden Integration
+                      into Road & Footpath
+                      Renewals to name a few. 2) Award winning Water Conservation Program for Businesses & Offices
+                      informed by Water Auditing
+                      of several types of Water End Using Sectors. Dr Bhakti has recently relocated to India with a
+                      vision to create a water
+                      secure & water sustainable Urban India. She has founded Urban Water Doctor whose mission is to
+                      empower & enable water
+                      users in recreating their water systems so they reduce their dependence on water tankers by 50 to
+                      100%. Since relocating
+                      to Bangalore in 2018, ● She has designed, tested & validated a Water Diagnostic & Solution
+                      Planning service that helps
+                      water users to transform their existing water-stressed properties in cities & towns to become
+                      sustainably water
+                      sufficient. This is based on a survey of 100+ Apartment Communities, 20+ solution providers &
+                      comprehensive assessment
+                      of 25 Apartment complexes in Bangalore. ● She has designed training modules on Urban Water
+                      Literacy & Urban Water
+                      Accountability that need to be urgently scaled across all cities and towns of India.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse5"
+                      aria-expanded="false" aria-controls="collapse5"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="speaker7" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="assets/speakers/sushant.jpg" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Sushant Sharma</h3>
+                    <h5 class="text-pink">Bhaktivedanta Institute Kolkata, India</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse7" aria-expanded="false">
+                      Sushant Sharma is a B. Tech. graduate (2000) from IIT Guwahati. He has contributed enormously
+                      towards various activities of the Bhaktivedanta Institute as an author and an editor. He was last
+                      associated with Tech Mahindra Limited as Tech Leader and has an IT experience of over 15 years.
+                      Later, Sushant Sharma decided to dedicate himself to the mission of Bhaktivedanta Institute and
+                      has been engaging himself to study the science of consciousness from a scientific as well as
+                      spiritual perspective. Under the able guidance of science-spirituality synthesis visionary Dr. T.
+                      D. Singh, he has delivered a key note lecture at the International Conference on Life and its
+                      Origin at Rome in 2004. From 2007, Sushant has been a speaker in many science-spirituality
+                      conferences and workshops organized by the Bhaktivedanta Institute including the AISSQ conference
+                      series. His conference lecture themes include “Man and Machine”, “Computer and Intelligence” and
+                      “Inimitable Intelligence”
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse7"
+                      aria-expanded="false" aria-controls="collapse7"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="speaker8" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-1">
+                <div class="text-center">
+                  <img src="assets/speakers/vasudevarao.png" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-2">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Shri K Vasudev Rao</h3>
+                    <h5 class="text-pink">President, Bhaktivedanta Institute Kolkata, India</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse8" aria-expanded="false">
+                      Vasudeva Rao (also known as His Holiness Bhaktisvarupa Vrajapati Swami), an alumnus of prestigious
+                      institute, IIT Kanpur (Computer Science, 1998), is currently the President of the Bhaktivedanta
+                      Institute, Kolkata. He is also the Editor of Bhaktivedanta Institute’s reputed annual journal,
+                      Savijnanam – Scientific Exploration for a Spiritual Paradigm and travels widely across India and
+                      abroad. His deep interest in the Foundations of mathematics, fundamentals of computer science and
+                      Logic and its relation to nature of reality as well as ancient Indian texts led him to interact
+                      and meet renowned scholars at Harvard, Princeton, Stanford, and MIT. He has delivered numerous
+                      talks on computer science and spirituality. Under his guidance and supervision, more than 10
+                      national conferences, 2 International conferences, over 200 papers and over 100 seminars and
+                      workshops on science and spirituality have been organized by the Institute in past decade which
+                      includes contributions from more than 20 Nobel Laureates and world-renowned scholars.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse8"
+                      aria-expanded="false" aria-controls="collapse8"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="speaker9" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+          <div class="card-header">
+            <div class="row no-gutters row-cols-2">
+              <div class="col-12 col-sm-4 col-md-3 order-sm-2">
+                <div class="text-center">
+                  <img src="assets/speakers/varun-agarwal.png" class="card-img-top rounded-circle my-auto" alt="..."
+                    style="min-width:150px; width: 100%; max-width: 200px;">
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-9 order-sm-1">
+                <div class="m-2 text-center d-flex flex-column justify-content-center">
+                  <div class="m-2">
+                    <h3>Shri Varun Agarwal</h3>
+                    <h5 class="text-pink">Director, Bhaktivedanta Institute Kolkata, India</h5>
+                  </div>
+                  <div class="m-2">
+                    <p class="collapse text-pink" id="collapse9" aria-expanded="false">
+                      Varun Agarwal (also known as His Holiness Bhaktisvarupa Vrajendrakumar Swami), an alumnus of
+                      Indian Institute of Technology Kanpur (IIT Kanpur, 1999, Aerospace Engg.), is currently the
+                      Director of the Bhaktivedanta Institute, Kolkata, India (Founded by illustrious scientist-saint,
+                      Dr. T. D. Singh, also known as His Holiness Bhaktisvarupa Damodara Swami) and works actively in
+                      the Foundations of Science and its possible relation with spirituality. His search for deeper
+                      meaning of life culminated in meeting and taking personal guidance of Dr. T. D. Singh which
+                      completely changed his life and he later dedicated himself for the cause of selflessly helping
+                      humanity. He is the Editor of many publications on science and spirituality as well as of the
+                      Bhaktivedanta Institute’s reputed annual science-spirituality journal, Savijnanam – Scientific
+                      Exploration for a Spiritual Paradigm and travels widely across India and abroad. His deep interest
+                      in the Foundations of mathematics and its relation to nature of reality as well as ancient Indian
+                      texts led him to interact and meet renowned scholars at Harvard, Princeton, ETH, Stanford, and
+                      MIT. He has interacted with many renowned mathematicians and himself has given numerous talks on
+                      foundations of science, mathematics and spirituality.
+                    </p>
+                    <a role="button" class="collapsed text-pink" data-toggle="collapse" href="#collapse9"
+                      aria-expanded="false" aria-controls="collapse9"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
@@ -505,11 +680,11 @@
 
 
 
-            
-          
-            
 
-            <!-- <div id="dr-debashis-khan" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
+
+
+
+        <!-- <div id="dr-debashis-khan" class="card bg-slides rounded-lg mx-auto mb-3 shadow" style="max-width: 960px;">
               <div class="card-header">
                 <div class="row no-gutters row-cols-2">
                   <div class="col-12 col-sm-4 col-md-3 order-sm-2">
@@ -815,63 +990,68 @@
                 </div>
               </div>
             </div> -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="jumbotron jumbotron-fluid text-white py-2 my-0" style="background-color: #000000ef;">
+    <div class="container-xl">
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="mx-4 mt-4 mb-2 text-center">
+          <h5>ORGANIZER</h5>
+          <img class="m-4" src="assets/bi logo.png" height="100px" alt="BI Kolkata">
+          <p> BHAKTIVEDANTA INSTITUTE <br> Kolkata | <a class="text-white"
+              href="http://www.binstitute.org">www.binstitute.org</a></p>
+        </div>
+        <div class="mx-4 mt-4 mb-2 d-flex flex-column justify-content-around">
+          <div class="mb-2">
+            <h5>IMPORTANT DATES</h5>
+            <p class="mb-0 my-2">Registration Ends: 20<sup>th</sup> June, 2023</p>
+            <p class="mb-0 my-2">Program Days: 3<sup>rd</sup> - 7<sup>th</sup> July, 2023</p>
+          </div>
+          <div class="mt-2">
+            <h5>QUICK LINKS</h5>
+            <div class="row row-cols-2">
+              <div class="col-6">
+                <p class="mb-0 my-2"><a href="register.html" class="text-white">Register</a></p>
+                <p class="mb-0 my-2"><a href="speakers.html" class="text-white">Speakers</a></p>
+              </div>
+              <div class="col-6">
+                <p class="mb-0 my-2"><a href="donations.html" class="text-white">Donations</a></p>
+                <p class="mb-0 my-2"><a href="schedule.html" class="text-white">Schedule</a></p>
+              </div>
+            </div>
           </div>
         </div>
-    </main>
-
-    <footer class="jumbotron jumbotron-fluid text-white py-2 my-0" style="background-color: #000000ef;">
-      <div class="container-xl">
-          <div class="d-flex flex-wrap justify-content-around">
-              <div class="mx-4 mt-4 mb-2 text-center">
-                  <h5>ORGANIZER</h5>
-                  <img class="m-4" src="assets/bi logo.png" height="100px" alt="BI Kolkata">
-                  <p> BHAKTIVEDANTA INSTITUTE <br> Kolkata | <a class="text-white"
-                          href="http://www.binstitute.org">www.binstitute.org</a></p>
-              </div>
-              <div class="mx-4 mt-4 mb-2 d-flex flex-column justify-content-around">
-                  <div class="mb-2">
-                      <h5>IMPORTANT DATES</h5>
-                      <p class="mb-0 my-2">Registration Ends: 20<sup>th</sup> June, 2023</p>
-                      <p class="mb-0 my-2">Program Days: 3<sup>rd</sup> - 7<sup>th</sup> July, 2023</p>
-                  </div>
-                  <div class="mt-2">
-                      <h5>QUICK LINKS</h5>
-                      <div class="row row-cols-2">
-                          <div class="col-6">
-                              <p class="mb-0 my-2"><a href="register.html" class="text-white">Register</a></p>
-                              <p class="mb-0 my-2"><a href="speakers.html" class="text-white">Speakers</a></p>
-                          </div>
-                          <div class="col-6">
-                              <p class="mb-0 my-2"><a href="donations.html" class="text-white">Donations</a></p>
-                              <p class="mb-0 my-2"><a href="schedule.html" class="text-white">Schedule</a></p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="mx-4 mt-4 mb-2 text-center">
-                  <h5>CONTACT US</h5>
-                  <p class="my-2 text-center"> <i class="bi-telephone">&nbsp;&nbsp;</i> <a href="tel:+918127341747"
-                          class="text-white">+91&nbsp;7569865357</a>
-                      </p>
-                      <p class="my-2 text-center"> <i class="bi-telephone">&nbsp;&nbsp;</i> <a href="tel:+917797154638"
-                          class="text-white">+91&nbsp;8918880560</a>
-                      </p>
-                  <p class="my-2 text-center"> <i class="bi-envelope">&nbsp;&nbsp;</i><a
-                          href="mailto:summerschool@binstitute.org" class="text-white">summerschool@binstitute.org </a></p>
-                  <div class="my-4">
-                      <p class="text-center"> <i class="bi-geo-alt">&nbsp;&nbsp;</i> <br> Bhaktivedanta Institute <br>
-                          Manashi Apt, VIP Road <br> Raghunathpur <br> Kolkata, 700059, India </p>
-                  </div>
-              </div>
+        <div class="mx-4 mt-4 mb-2 text-center">
+          <h5>CONTACT US</h5>
+          <p class="my-2 text-center"> <i class="bi-telephone">&nbsp;&nbsp;</i> <a href="tel:+918127341747"
+              class="text-white">+91&nbsp;7569865357</a>
+          </p>
+          <p class="my-2 text-center"> <i class="bi-telephone">&nbsp;&nbsp;</i> <a href="tel:+917797154638"
+              class="text-white">+91&nbsp;8918880560</a>
+          </p>
+          <p class="my-2 text-center"> <i class="bi-envelope">&nbsp;&nbsp;</i><a
+              href="mailto:summerschool@binstitute.org" class="text-white">summerschool@binstitute.org </a></p>
+          <div class="my-4">
+            <p class="text-center"> <i class="bi-geo-alt">&nbsp;&nbsp;</i> <br> Bhaktivedanta Institute <br>
+              Manashi Apt, VIP Road <br> Raghunathpur <br> Kolkata, 700059, India </p>
           </div>
-          <div class="d-flex flex-wrap justify-content-between">
-              <p class="text-center mx-2">Developed By <a class="text-white"
-                      href="https://kancherlakishorereddy.github.io" target="_blank">K.Kishorereddy</a></p>
-              <p class="text-center mx-2">© 2023 Bhaktivedanta Institute, Kolkata | All Rights Reserved.</p>
-          </div>
+        </div>
       </div>
+      <div class="d-flex flex-wrap justify-content-between">
+        <p class="text-center mx-2">Developed By <a class="text-white" href="https://kancherlakishorereddy.github.io"
+            target="_blank">K.Kishorereddy</a></p>
+        <p class="text-center mx-2">© 2023 Bhaktivedanta Institute, Kolkata | All Rights Reserved.</p>
+      </div>
+    </div>
   </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
