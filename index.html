@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="style/chatbot/loading.css">
     <!-- bootstrap icon cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -141,15 +143,18 @@
             </div>
         </nav>
         <div id="o-banner" class="d-flex flex-column-reverse flex-grow-1">
+            <video autoplay muted loop>
+                <source src='./assets/technology-111046.mp4' type="video/mp4">
+            </video>
             <div id="c1" class="w-100 d-flex flex-wrap justify-content-around bg-white">
-                <div
+                <div style="background-color: #AC1876;padding: 5px;border-radius: 5px;"
                     class="my-3 d-flex flex-nowrap animate__animated animate__zoomIn animate__faster animate__delay-1s">
                     <img class="ml-2 align-self-center" src="assets/calendar.webp" alt="Location" style="width: 40px;">
                     <h3 class="align-self-center mx-2 mx-sm-4 text-normal">3<sup>rd</sup> - 7<sup>th</sup> July,
                         2023</h3>
                 </div>
 
-                <div
+                <div style="background-color: #AC1876;padding: 5px;border-radius: 5px;"
                     class="my-3 d-flex flex-nowrap animate__animated animate__zoomIn animate__faster animate__delay-2500ms">
                     <img class="ml-2 align-self-center" src="assets/map.webp" alt="Location" style="width: 40px;">
                     <h3 class="mx-2 mx-sm-4 text-normal text-center" style="color: #000;font-size:x-large;"
@@ -170,13 +175,13 @@
                 <h2 class="m-3 mx-sm-4 text-blue text-normal text-center"> 8<sup>th</sup> SUMMER SCHOOL</h2>
                 <div class="text-center mt-sm-4">
                     <h1 class="mx-2 mx-sm-4 display-3 font-weight-bold animate__animated animate__backInLeft animate__faster"
-                        id="atSmallScreen" style="font-size:4rem;">
+                        id="atSmallScreen" style="font-size:4rem;color:#AC1876;">
                         Unfolding <br> the Mystery <br> of Memory
                     </h1>
 
                 </div>
             </div>
-            <img id="replace" src="assets/banner(2).png" alt="Banner">
+            <!-- <img id="replace" src="assets/banner(2).png" alt="Banner"> -->
         </div>
     </div>
 
@@ -910,22 +915,87 @@
                     <i class="bi bi-x-lg"></i>
                 </div>
             </div>
-            <div class="chat_body"></div>
-            <div class="loadingChatBot hidechatBotAnimation">
-                <div class="circleChatBot circle_1"></div>
-                <div class="circleChatBot circle_2"></div>
-                <div class="circleChatBot circle_3"></div>
-            </div>
-            <div class="chat_input ">
-                <div class="input_section">
-                    <input type="text" id="text_input" placeholder="Type here" autofocus>
+            <div class="chat_body row">
+                <div class="col-10">
+                    <div class="question row">
+                        <div class="row">
+                            <p class="questions">
+                                <span class="thin">I Have Registered but did not get the confirmation mail</span> <i
+                                    class="bi bi-caret-down-fill"></i>
+                            </p>
+                            <p class="answer">
+                                Please wait for 24 hours you will get the mail
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="question row">
+                        <div class="row">
+                            <p class="questions">
+                                <span class="thin">How I can Register ?</span><i class="bi bi-caret-down-fill"></i>
+                            </p>
+                            <p class="answer">
+                                Need to go the Register page
+                                <br><br>
+                                <a href="register.html">Register</a>
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="question row">
+                        <div class="row">
+                            <p class="questions">
+                                <span class="thin">How I Can Reach the venue from my Location ?</span><i
+                                    class="bi bi-caret-down-fill"></i>
+                            </p>
+                            <p class="answer">
+                                Will be update soon.
+
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="question row">
+                        <div class="row">
+                            <p class="questions">
+                                <span class="thin">Who are the Speakers?</span><i class="bi bi-caret-down-fill"></i>
+                            </p>
+                            <p class="answer">
+                                Need to go to speakers page
+                                <br>
+                                <br>
+                                <a href="speakers.html">Speaker</a>
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="question row">
+                        <div class="row">
+                            <p class="questions">
+                                <span class="thin">Can I Register without Accommodation ?</span><i
+                                    class="bi bi-caret-down-fill"></i>
+                            </p>
+                            <p class="answer">
+                                Contact below details
+                                <br>
+                                <br>
+                                <a href="contact.html">Contact</a>
+                            </p>
+                        </div>
+
+
+                    </div>
                 </div>
-                <div class="send">
-                    <i class="bi bi-send-fill"></i>
-                </div>
             </div>
+
         </div>
     </section>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -959,6 +1029,7 @@
     <!-- chatbot javascript file -->
     <script src="javascript/chatBot.js"></script>
     <script src="javascript/chatBot/chatResponse.js" defer></script>
+
 </body>
 
 </html>

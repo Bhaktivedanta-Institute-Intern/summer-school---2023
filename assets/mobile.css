@@ -3,6 +3,10 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 #replace {
   align-items: flex-end;
   width: 100%;
@@ -122,18 +126,30 @@ li,
   background-position: center;
   background-size: cover;
   color: #ffffff;
+  background-size: cover;
 }
 
 #o-banner {
-  background: url('./banner\(2\).png');
+  /* background: url('./banner\(2\).png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 5% -40px;
   background-size: contain;
-  color: #AC1775;
+  color: #AC1775; */
+  position: relative;
+  overflow: hidden;
 
 
 
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 #o-banner a {
@@ -381,4 +397,9 @@ td {
 .hoverEffectCaption:hover figcaption {
   color: rgb(63, 63, 199) !important;
   font-weight: 400 !important;
+}
+
+.posterShadow {
+  object-fit: contain;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
