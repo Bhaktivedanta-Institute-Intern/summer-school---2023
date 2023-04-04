@@ -130,27 +130,27 @@ li,
 }
 
 #o-banner {
-  /* background: url('./banner\(2\).png');
+  background: url('./banner\(2\).png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 5% -40px;
   background-size: contain;
-  color: #AC1775; */
-  position: relative;
-  overflow: hidden;
+  color: #AC1775;
+  /* position: relative;
+  overflow: hidden; */
 
 
 
 }
 
-video {
+/* video {
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-}
+} */
 
 #o-banner a {
   color: #12609B !important;
