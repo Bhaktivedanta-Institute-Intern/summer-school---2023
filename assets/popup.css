@@ -44,7 +44,8 @@
 .popup a {
     font-size: medium;
     display: block;
-    width: 120px;
+    width: 119px;
+    font-weight: 600;
     position: relative;
     margin: auto;
     text-align: center;
