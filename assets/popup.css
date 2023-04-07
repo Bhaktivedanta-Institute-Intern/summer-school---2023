@@ -1,24 +1,26 @@
 *,
 *:before,
-*:after{
+*:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.popup{
+.popup {
     z-index: 1;
     background-color: white;
     max-width: 300px;
     padding: 5px 40px;
     position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    font-family: "Poppins",sans-serif;
+    /* transform: translate(-50%, -50%); */
+    /* left: 50%; */
+    top: 20px;
+    right: 100px;
+    font-family: "Poppins", sans-serif;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.popup button{
+
+.popup button {
     display: block;
     position: absolute;
     right: 0;
@@ -31,13 +33,15 @@
     outline: none;
     cursor: pointer;
 }
-.popup p{
+
+.popup p {
     font-weight: 500;
     font-size: larger;
     text-align: center;
     margin-bottom: 19%;
 }
-.popup a{
+
+.popup a {
     font-size: large;
     display: block;
     width: 150px;
@@ -49,6 +53,18 @@
     text-decoration: none;
     padding: 5px 0;
 }
-.popup a:hover{
+
+.popup a:hover {
     background-color: brown;
+}
+
+@media screen and (max-width:768px) {
+    .popup {
+
+        width: 250px;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+
+    }
 }
