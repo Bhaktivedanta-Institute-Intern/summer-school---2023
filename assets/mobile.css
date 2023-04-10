@@ -130,12 +130,14 @@ li,
 }
 
 #o-banner {
-  background: url('./wall.jpg');
+  background: url('wallOfBg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 5% -40px;
   background-size: contain;
   color: #AC1775;
+  /* background-color: #FCFEFF; */
+  z-index: 9;
   /* position: relative;
   overflow: hidden; */
 
